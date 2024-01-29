@@ -2,7 +2,7 @@
 
 client_id = "cbbeb5705ce55f1a315cc3a533d6cc0a"
 name = "challenges-app"
-application_url = "https://ivory-bestsellers-ellis-photo.trycloudflare.com"
+application_url = "https://headers-addresses-wool-moderator.trycloudflare.com"
 embedded = true
 
 [build]
@@ -11,13 +11,13 @@ dev_store_url = "challenges-store.myshopify.com"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products,write_discounts"
 
 [auth]
 redirect_urls = [
-  "https://ivory-bestsellers-ellis-photo.trycloudflare.com/auth/callback",
-  "https://ivory-bestsellers-ellis-photo.trycloudflare.com/auth/shopify/callback",
-  "https://ivory-bestsellers-ellis-photo.trycloudflare.com/api/auth/callback"
+  "https://headers-addresses-wool-moderator.trycloudflare.com/auth/callback",
+  "https://headers-addresses-wool-moderator.trycloudflare.com/auth/shopify/callback",
+  "https://headers-addresses-wool-moderator.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

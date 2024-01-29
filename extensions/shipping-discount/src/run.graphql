@@ -11,22 +11,15 @@ query RunInput {
         title
       }
     }
-    lines {
-      quantity
-      merchandise {
-        __typename
-        ... on ProductVariant {
-          id
-          product {
-            productType
-          }
-        }
+    cost {
+      subtotalAmount {
+        amount
       }
     }
   }
   discountNode {
     metafield(
-      namespace: "$app:volume-discount"
+      namespace: "$app:shipping-discount"
       key: "function-configuration"
     ) {
       value
